@@ -1,5 +1,20 @@
 # Make Default Files and Folder Structure
- 
+
+- Once you have run the program DO NOT keep your project in the same dir as this, chose a diffrent dir, for example you do the following:
+```
+> python3 -O __pycache__/make.pyc
+Enter path to projects root dir (leave blank if already in the dir):
+> 
+Done
+```
+Avoid leaving blank. Do this insted
+```
+> python3 -O __pycache__/make.pyc
+Enter path to projects root dir (leave blank if already in the dir):
+> <somedir(Has to be a folder)>
+Done
+```
+
 ## How to run on windows
 For most people this should be enough,
 ```cmd
@@ -10,7 +25,6 @@ if that does not work then do,
 python3 make.py
 ```
 ***Use the above command as a lost resort as 'make.py' is not compiled in Cython and is very unstable***
-
 
 ## How to run on Bash
 For most people this should be enough,
