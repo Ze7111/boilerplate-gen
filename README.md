@@ -18,23 +18,27 @@ Done
 ## How to run on windows
 For most people this should be enough,
 ```cmd
-python3 -O __pycache__/make.pyc
+> git clone https://github.com/Ze7111/boilerplate-gen.git
+> python3 -O __pycache__/make.pyc
 ```
 if that does not work then do,
 ```cmd
-python3 make.py
+> git clone https://github.com/Ze7111/boilerplate-gen.git
+> python3 make.py
 ```
 ***Use the above command as a lost resort as 'make.py' is not compiled in Cython and is very unstable***
 
 ## How to run on Bash
 For most people this should be enough,
 ```bash
+$ git clone https://github.com/Ze7111/boilerplate-gen.git
 $ chmod +x make.py
 $ ./make.py
 ```
 if that does not work then do,
 ```bash
-python make.py
+$ git clone https://github.com/Ze7111/boilerplate-gen.git
+$ python make.py
 ```
 ***Use the above command as a lost resort as 'make.py' is not compiled in Cython and is very unstable***
 
